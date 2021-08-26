@@ -1,7 +1,7 @@
 # Inspect Node Data
 SOP-level HDA for storing, retrieving, and inspecting parameters from nodes.
 
-***Currently Python 3 though I might backport it to work with both (sorry but I love `f"` strings!)***
+~~***Currently Python 3 though I might backport it to work with both (sorry but I love `f"` strings!)***~~
 
 [Check out the demo video here](https://vimeo.com/591895400)
 
