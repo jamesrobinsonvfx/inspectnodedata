@@ -1,0 +1,23 @@
+{
+    "enable": true,
+    "env": [
+        {
+            "INSPECTNODEDATA_INSTALL_DIR": "$HOUDINI_PACKAGE_PATH/inspectnodedata"
+        },
+        {
+            "INSPECTNODEDATA_BUILD_DIR": [
+                {
+                    "houdini_version >= '18.5'": "$INSPECTNODEDATA_INSTALL_DIR/houdini18.5"
+                }
+            ]
+        },
+        {
+            "HOUDINI_OTLSCAN_PATH": "$INSPECTNODEDATA_BUILD_DIR/hda"
+        }
+    ],
+    "path": [
+        {
+            "houdini_version >= '18.5'": "$INSPECTNODEDATA_BUILD_DIR"
+        }
+    ]
+}
