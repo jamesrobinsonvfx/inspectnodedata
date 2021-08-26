@@ -11,4 +11,7 @@ See help card and demo file for more info.
 
 
 # Installation
+
+Download the [latest zip](https://github.com/jamesrobinsonvfx/inspectnodedata/releases/latest/download/inspectnodedata.zip) from the [Releases](https://github.com/jamesrobinsonvfx/inspectnodedata/releases/latest) page, or clone the repo.
+
 This repo is designed as a Houdini Package but you can totally just drag and drop the HDA to your user prefs if you'd like!
